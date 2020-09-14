@@ -26,6 +26,7 @@ header {
 
 body {
   margin: 0;
+  background-color: #f2f1ed;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 2fr;
@@ -40,6 +41,8 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 h2 {
@@ -75,4 +78,10 @@ li {
 a {
   color: #fff;
   font-size: 2rem;
+}
+
+nav {
+  z-index: 1;
+  grid-column: 2;
+  grid-row: 1;
 }
