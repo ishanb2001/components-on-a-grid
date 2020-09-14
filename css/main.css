@@ -17,6 +17,15 @@ header {
   display: contents;
 }
 
+body {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr;
+  grid-template-areas:
+    "header header"
+    "figure figure";
+}
+
 main {
   margin: 0;
   display: grid;
@@ -33,4 +42,12 @@ h2 {
 p {
   font-family: 'Georgia', cursive;
   color: #000;
+}
+
+.pano {
+ padding: 1rem;
+}
+
+figure {
+  margin: 0;
 }
