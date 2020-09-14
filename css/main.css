@@ -20,7 +20,17 @@ header {
 main {
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);sssss
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  padding: 1rem;
+  padding: 0rem;
+}
+
+h2 {
+  font-family: 'Patua One', cursive;
+  color: #30658d;
+}
+
+p {
+  font-family: 'Georgia', cursive;
+  color: #000;
 }
